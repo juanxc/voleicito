@@ -1,4 +1,4 @@
-.container {
+.vcontainer {
   margin: 0 auto;
   min-height: 100vh;
   display: flex;
@@ -27,4 +27,27 @@
 
 .links {
   padding-top: 15px;
+}
+
+.cabecera-lugar{
+  background-color: teal !important;
+  border-color: teal !important;
+}
+
+.container-left {
+  margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  text-align: left;
+}
+
+.container-center{
+  margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
